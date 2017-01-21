@@ -1,6 +1,8 @@
 # Homework 1
 
-The problem statement can be found here: 
+The problem statement can be found in the announce repo:
+
+https://github.com/sc3260s17/announce/tree/master/hwk1 
 
 ## Cloning Repository and Pushing to Your Own Private Repo
 
