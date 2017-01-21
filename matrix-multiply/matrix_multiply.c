@@ -19,7 +19,7 @@ int main(int argc, char ** argv)
    if ( argc != 3 ) {
       printf("This program computes the product of n x n matrix with itself\n");
       printf("Usage: ./matrix_multiply filename n\n");
-      exit(0);
+      exit(-1);
    }
 
    // TODO: parse input arguments

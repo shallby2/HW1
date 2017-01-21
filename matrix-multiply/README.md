@@ -13,6 +13,18 @@ of various sizes for testing. To build this file type:
 
 	make generate_rand_matrix
 
+## Generating New Matrices from the Command Line
+
+Use the `generate_rand_matrix` program to generate matrices of different sizes. For example:
+
+```
+$ ./generate_rand_matrix 3 > 3_3_mat.dat
+```
+
+will create a 3x3 matrix. Please use the .dat file extension for these files since these are
+not tracked in this repository (see the .gitignore). This ensures that you don't push a huge
+data file to GitHub, which can be painfully slow and cause other headaches.
+
 ## Passing File Name from Command Line
 
 Try something like this for passing file name from the Linux command line:
