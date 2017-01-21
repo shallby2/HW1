@@ -34,3 +34,8 @@
 
 # Data files
 *.dat
+
+# Other files specific to this repo
+SimpleMD/bin/run_md
+SimpleMD/traj.xyz
+SimpleMD/stdout.log
