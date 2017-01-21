@@ -232,7 +232,7 @@ software like Visual Molecular Dynamic (http://www.ks.uiuc.edu/Research/vmd/). H
 snapshots:
 
 ### 125 Atoms 
-![125 atoms](/images/125atoms.png?raw=true "125 Atoms")
+![125 atoms](/SimpleMD/images/125atoms.png?raw=true "125 Atoms")
 
 ### 5000 Atoms 
-![5000 atoms](/images/5000atoms.png?raw=true "5000 Atoms")
+![5000 atoms](/SimpleMD/images/5000atoms.png?raw=true "5000 Atoms")
