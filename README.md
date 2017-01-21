@@ -11,6 +11,10 @@ download" button on this page in GitHub, then copy the URL provided and paste it
 typing `git clone`. If you get an HTTPS error, make sure you have the following line
 in your ~/.bashrc file and then type `source ~/.bashrc`.
 
+```
+setpkgs -a git
+```
+
 Once you have the source files, you can begin making changes. You should
 periodically commit your changes and push to GitHub. Your final solution must
 be pushed to GitHub before class the date the assignment is due.
