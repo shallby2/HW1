@@ -6,9 +6,10 @@ https://github.com/sc3260s17/announce/tree/master/hwk1
 
 ## Cloning Repository and Pushing to Your Own Private Repo
 
-To clone this repo type the following from the cluster:
-
-	git clone https://github.com/sc3260s16/<GITHUBNAME>/assignments-hwk1.git
+Start by cloning this repo to your cluster home directory. Click the green "Clone or
+download" button on this page in GitHub, then copy the URL provided and paste it after
+typing `git clone`. If you get an HTTPS error, make sure you have the following line
+in your ~/.bashrc file and then type `source ~/.bashrc`.
 
 Once you have the source files, you can begin making changes. You should
 periodically commit your changes and push to GitHub. Your final solution must
