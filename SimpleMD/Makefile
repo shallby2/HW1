@@ -4,13 +4,17 @@ INCDIR = inc
 OBJDIR = obj
 BINDIR = bin
 
-# Compiler rules
-CC=icc
-CFLAGS=-I$(INCDIR) -Wall -xHost -O3 -vec_report2
+# Intel Compiler and Linker rules
+#CC=icc
+#CFLAGS=-I$(INCDIR) -Wall -xHost -O3 -vec_report2
+#LDFLAGS=
+#LDLIBS=
 
-# Linker flags and libs
+# GCC Compiler and Linker rules
+CC=gcc
+CFLAGS=-I$(INCDIR) -Wall -O3
 LDFLAGS=
-LDLIBS=
+LDLIBS=-lm
 
 # Name of final executable
 TARGET=run_md
